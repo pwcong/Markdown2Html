@@ -18,9 +18,3 @@
 //
 //
 // });
-
-var html = require('../lib/util/html');
-
-var str = "abcabc";
-var res = str.match(/abc/);
-console.log(res);
