@@ -3,7 +3,6 @@
  */
 
 var fs = require('fs');
-var html = require('../lib/html');
 var m2h = require('../lib/m2h');
 
 fs.readFile("markdown",function (err, data) {
@@ -13,7 +12,7 @@ fs.readFile("markdown",function (err, data) {
     else{
         var str = data.toString();
 
-        m2h(str);
+        console.log(m2h(str));
 
         // var strArray = str.split("\n");
         // console.log(strArray.length);
