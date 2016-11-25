@@ -1,7 +1,8 @@
 /**
  * Created by Pwcong on 2016/11/22.
  */
-var util = require("util");
+var util = require("../lib/util");
 
-util.log("OK");
+console.log(util.isUndefined());
+
 
