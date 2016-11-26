@@ -20,7 +20,7 @@ var util = require('util');
 // console.log(str);
 
 
-var str = '*123456789*aaa_+aaaaa*123456789*bbb';
+var str = '[Baidu](https://www.baidu.com)';
 
 
-console.log(str.match(/\*\w+\*/));
+console.log(str.match(/\[.+]\(.*\)/));
