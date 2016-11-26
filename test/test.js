@@ -5,7 +5,7 @@
 var fs = require('fs');
 var m2h = require('../lib/m2h');
 
-fs.readFile("markdown.md",function (err, data) {
+fs.readFile("test.md",function (err, data) {
 
     if(err)
         console.log(err.message);
