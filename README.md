@@ -12,6 +12,7 @@ npm install m2h --save
 ```
 var m2h = require('m2h');
 
-console.log(m2h('# Hello'));
+console.log(m2h('# Hello')); // <h1>Hello</h1>
+console.log(m2h('[Pwcong](http://www.pwcong.me)')); // <a href="http://www.pwcong.me">Pwcong</a>
 
 ```
