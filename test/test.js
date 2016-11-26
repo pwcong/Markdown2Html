@@ -14,10 +14,6 @@ fs.readFile("markdown.md",function (err, data) {
 
         console.log(m2h(str));
 
-        // var strArray = str.split("\n");
-        // console.log(strArray.length);
-        // for(var i in strArray)
-        //     console.log(strArray[i]);
     }
 
 

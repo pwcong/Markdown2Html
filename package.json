@@ -1,19 +1,24 @@
 {
-  "name": "markdown2html",
-  "description": "A simple util which can convert Markdown to Html.",
-  "author": "Pwcong",
+  "name": "m2h",
   "version": "1.0.0",
+  "description": "A markdown parser.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pwcong/Markdown2Html.git"
   },
+  "keywords": [
+    "markdown",
+    "html",
+    "parser"
+  ],
+  "author": "Pwcong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pwcong/Markdown2Html/issues"
