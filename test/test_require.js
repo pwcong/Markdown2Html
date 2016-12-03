@@ -3,5 +3,18 @@
  */
 var html = require('../lib/html');
 
-console.log(html.row("Hello"));
-console.log(html.header("One",1));
+var header = [
+    'Name',
+    'Age'
+];
+
+var bodies = [
+
+    ['pwc',18],
+    ['plp',19],
+    ['pjj',46],
+    ['mxc',45]
+
+];
+
+console.log(html.table(header,bodies));

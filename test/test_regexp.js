@@ -2,6 +2,6 @@
  * Created by Pwcong on 2016/11/25.
  */
 
-var str = '[Pwcong](https://www.pwcong.me)';
+var str = '|-------------|';
 
-console.log(str.match(/\[.+]\(.*\)/));
+console.log(str.match(/^\|-+\|/));
