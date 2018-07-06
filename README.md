@@ -10,9 +10,9 @@ npm install m2h --save
 
 ## Second Step. Import module 'm2h' into your code.
 ```
-var m2h = require('m2h');
+const m2h = require('m2h');
 
-console.log(m2h('# Hello')); // <h1>Hello</h1>
-console.log(m2h('[Pwcong](http://www.pwcong.me)')); // <a href="http://www.pwcong.me">Pwcong</a>
+const res = m2h('# Hello World');
+...
 
 ```
